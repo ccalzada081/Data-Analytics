@@ -9,7 +9,7 @@ Se construyó un **Data Warehouse** utilizando esquemas estrella y copo de nieve
 
 El proyecto finaliza con la creación de **dashboards interactivos en Power BI**, enfocados tanto en análisis de negocio como en métricas de calidad y control de datos.
 
-## 🔧 Herramientas y Tecnologías
+# 🔧 Herramientas y Tecnologías
 - SQL Server  
 - Python (ETL y validaciones)  
 - Power BI  
