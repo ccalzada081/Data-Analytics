@@ -1,57 +1,49 @@
-# Data-Analytics
-
-# 📊 Project Data Analytics – Data Warehouse, Data Mart & Data Governance
+# 📊 Project Data Analytics
 
 ## 📌 Descripción del Proyecto
-Este proyecto presenta el diseño e implementación de una arquitectura completa de **Data Analytics**, que abarca desde la integración de múltiples fuentes de datos hasta el análisis visual y la gobernanza de la información.
+- Diseño e implementación de un Data Warehouse con esquemas estrella y copo de nieve  
+- Integración de múltiples fuentes de datos mediante procesos ETL  
+- Creación de Data Marts para análisis específicos  
+- Implementación de una base de datos de gobernanza (DGDB) para control de calidad de datos  
+- Desarrollo de dashboards ejecutivos y analíticos en Power BI  
 
-Se construyó un **Data Warehouse** utilizando esquemas estrella y copo de nieve, integrando datos de ventas, empleados, productos, rentas y salarios provenientes de distintos sistemas. Posteriormente, se desarrolló un **Data Mart** orientado a análisis agregados mensuales y una **Data Governance Database (DGDB)** para monitorear la calidad de los datos y la ejecución de los procesos ETL.
-
-El proyecto finaliza con la creación de **dashboards interactivos en Power BI**, enfocados tanto en análisis de negocio como en métricas de calidad y control de datos.
-
-# 🔧 Herramientas y Tecnologías
+## 🔧 Herramientas y Tecnologías
 - SQL Server  
-- Python (ETL y validaciones)  
+- Python  
 - Power BI  
 - DAX  
-- ODBC / SQL Alchemy  
 
 ## 📈 Resultados
-- Arquitectura completa de datos: **Data Warehouse + Data Mart + Data Governance Database**.  
-- Procesos ETL automatizados con registro de ejecuciones, control de errores y validaciones de calidad.  
-- Reglas de calidad de datos documentadas y ejecutadas (integridad referencial, lógica de negocio, formato y reglas de fusión de datos).  
-- Dashboards en Power BI que incluyen:
-  - KPIs ejecutivos (Total Revenue, Total Payroll, Total Transactions).  
-  - Análisis por categoría, producto, cliente, empleado y tiempo.  
-  - Visualizaciones de calidad de datos y resultados de validaciones desde la DGDB.  
+- Arquitectura completa: Data Warehouse, Data Mart y Data Governance Database  
+- Procesos ETL automatizados con validaciones y control de errores  
+- Dashboards interactivos con KPIs ejecutivos y análisis por dimensión  
+- Visualización de métricas de calidad de datos y resultados de validaciones  
 
 ## 🎯 Objetivo
-Desarrollar habilidades prácticas en **ingeniería de datos, modelado dimensional, gobernanza de datos y analítica de negocio**, utilizando herramientas y enfoques alineados con entornos profesionales reales.
+- Aplicar modelado dimensional y analítica de datos en un entorno realista  
+- Fortalecer habilidades en ingeniería de datos, visualización y gobernanza  
 
 ---
 
 ## 📌 Project Overview
-This project focuses on the design and implementation of a complete **data analytics architecture**, covering data integration, storage, governance, and business intelligence.
-
-A **Data Warehouse** was built using star and snowflake schemas, integrating data from multiple operational sources such as sales, employees, products, rentals, and salaries. A **Data Mart** was then created to support aggregated monthly analysis, followed by a **Data Governance Database (DGDB)** to track ETL executions and data quality validations.
-
-The project concludes with the development of **interactive Power BI dashboards**, combining business insights with data quality and governance metrics.
+- Design and implementation of a Data Warehouse using star and snowflake schemas  
+- Integration of multiple data sources through ETL processes  
+- Creation of Data Marts for focused analytical use cases  
+- Implementation of a Data Governance Database (DGDB) for data quality monitoring  
+- Development of executive and analytical dashboards in Power BI  
 
 ## 🔧 Tools and Technologies
 - SQL Server  
-- Python (ETL automation and validations)  
+- Python  
 - Power BI  
 - DAX  
-- ODBC / SQL Alchemy  
 
 ## 📈 Results
-- End-to-end data architecture: **Data Warehouse + Data Mart + Data Governance Database**.  
-- Automated ETL pipelines with execution logging, validation rules, and error handling.  
-- Documented and enforced data quality rules (referential integrity, business logic, format validation, and merger logic).  
-- Power BI dashboards including:
-  - Executive KPIs (Revenue, Payroll, Transactions).  
-  - Analysis by category, product, customer, employee, and time.  
-  - Data quality and validation reporting sourced from the DGDB.  
+- End-to-end architecture: Data Warehouse, Data Mart, and Data Governance Database  
+- Automated ETL pipelines with validation and error tracking  
+- Interactive dashboards with executive KPIs and dimensional analysis  
+- Data quality and governance metrics visualized through DGDB  
 
 ## 🎯 Objective
-To develop practical skills in **data engineering, dimensional modeling, data governance, and business analytics**, using tools and practices aligned with real-world professional environments.
+- Apply dimensional modeling and analytics in a real-world scenario  
+- Strengthen skills in data engineering, visualization, and data governance  
